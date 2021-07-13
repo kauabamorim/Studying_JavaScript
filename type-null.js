@@ -1,3 +1,5 @@
+// null -> Vazio
+
 let input = null;
 let input2;
 
