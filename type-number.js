@@ -2,8 +2,8 @@
 
 const meuNumero = 3;
 
-const primeiroNumero = 10;
-const segundoNumero = 2;
+const primeiroNumero = Math.floor(Math.random() * 20);
+const segundoNumero = Math.floor(Math.random() * 20);
 
 // SOMA
 const operacaoMatematica = primeiroNumero + segundoNumero;
