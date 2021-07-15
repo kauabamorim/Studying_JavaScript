@@ -11,7 +11,16 @@ const numeroString = "456";
 // console.log(numero + numeroString)
 
 // Conversao explicita
-// Number()
-// String()
 
+// Number()
 console.log(numero + Number(numeroString))
+
+let largura = "10";
+let altura = "5";
+console.log( Number(largura) * Number(altura));
+
+// String()
+let telefone = 12341234;
+// console.log("O telefone é " + String(telefone));
+// ==> Outro metodo para conversao
+// console.log("O telefone é " + telefone.toString());
